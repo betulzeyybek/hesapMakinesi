@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.hesaplama {
+    background-color: #464644;
+    border-radius: 50px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hesaplama-input {
+    border-radius: 1.7rem;
+    color: white;
+    width: 100%;
+    height: 120px;
+    border: none;
+    background-color: #464644;
+    text-align: right;
+    font-size: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(88, 86, 86, 0.7);
+    height: 70px;
+}
+button:hover {
+    background-color: rgb(163, 163, 152, 0.9);
+}
+.islem {
+    color: white;
+    background-color: #fd9f09;
+    border: black;
+    border-color: rgb(194, 177, 177);
+    font-size: 10 rem;
+}
+.islem:hover {
+    background-color: rgb(249, 225, 208);
+}
+.islem2 {
+    background: gray;
+    border-color: white;
+    border: black;
+}
+
+.hesaplama-tus {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    font-weight: bold;
+    font-size: 10 rem;
+}
+button[value="0"] {
+    grid-column: span 2;
+    border-radius: 50px;
+    width: 160px;
+    text-align: auto;
+}
